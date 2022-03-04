@@ -76,7 +76,7 @@ ggplot(world_map, aes(long, lat, group=group))+
   coord_map(xlim=c(15,42),
             ylim=c(44,55))+
   #add title and themes
-  labs(title="SPREAD OF UKRANIAN REFUGEES",subtitle="Number of Ukranian refugees in neighboring countries. Graphic does not depict additional 110K refugees in other additional European countries.",
+  labs(title="SPREAD OF UKRAINIAN REFUGEES",subtitle="Number of Ukrainian refugees in neighboring countries. Graphic does not depict additional 110K refugees in other additional European countries.",
        caption="Data from UNHCR as of Mar 3rd, 2022 | Chart @tanya_shapiro")+
   theme_void()+
   theme(text=element_text(family="Gill Sans"),
