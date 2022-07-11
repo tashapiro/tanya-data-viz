@@ -9,7 +9,7 @@ Most of my visualization work is coded with R, directories will include datasets
 ## Gallery
 
 ### [NYT Times - Where Abortion Is Prohibited](https://github.com/tashapiro/tanya-data-viz/tree/main/nyt-abortion-map)
-Attempt to recreate New York Times' abortion ban choropleth map using R (ggplot + ggpatern). 
+Attempt to recreate New York Times' abortion ban choropleth map using R (ggplot + ggpatern). The [original image](https://www.instagram.com/p/Cf1-6ifuGfR/) is from NYT's Instagram.
 
 ![plot](./nyt-abortion-map/recreated-nyt-map.jpeg)
 
