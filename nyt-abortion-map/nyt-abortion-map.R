@@ -16,7 +16,7 @@ showtext_auto()
 
 #recreate dataset from New York Times
 prohib<-data.frame(
-  state = c("Texas","Oklahoma","South Dakota","Wisconsin","Montana","West Virginia","Alabama","Louisiana","Mississippi","Arkansas",
+  state = c("Texas","Oklahoma","South Dakota","Wisconsin","Missouri","West Virginia","Alabama","Louisiana","Mississippi","Arkansas",
             "Idaho","North Dakota","Wyoming","Tennessee",
             "Utah","Arizona","Kentucky"),
   status = c(rep("Ban in effect",10),rep("Ban expected soon",4), rep("Ban blocked",3)),
@@ -42,7 +42,7 @@ map_data
 #create labels
 labels<-map_data|>
   distinct(region, state_abbr, cent_long, cent_lat)|>
-  mutate(color=case_when(region %in% c("Texas","Oklahoma","South Dakota","Wisconsin","Montana","West Virginia","Alabama","Louisiana","Mississippi","Arkansas") ~ "white",
+  mutate(color=case_when(region %in% c("Texas","Oklahoma","South Dakota","Wisconsin","Missouri","West Virginia","Alabama","Louisiana","Mississippi","Arkansas") ~ "white",
                          TRUE ~ "black"))
 
 #plot
