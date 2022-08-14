@@ -8,9 +8,13 @@ Most of my visualization work is coded with R, directories will include datasets
 
 ## Gallery
 
+### [Westworld Attribute Matrix](https://github.com/tashapiro/tanya-data-viz/blob/main/westworld/code/ww-radar-plot.R)
+Data from the [Open-Source Psychometrics Project](https://openpsychometrics.org/). Plot created using **ggplot**, **ggtext**, and **ggimage**. 
+
+![plot](./westworld/plots/westworld-radar-plot.png)
+
 ### [NYT Times - Where Abortion Is Prohibited](https://github.com/tashapiro/tanya-data-viz/tree/main/nyt-abortion-map)
 Attempt to recreate New York Times' abortion ban choropleth map using R (ggplot + ggpatern). The [original image](https://www.instagram.com/p/Cf1-6ifuGfR/) is from NYT's Instagram.
-
 ![plot](./nyt-abortion-map/recreated-nyt-map.jpeg)
 
 ### [Selling Sunset](https://github.com/tashapiro/tanya-data-viz/blob/main/selling-sunset/selling-sunset.R)
