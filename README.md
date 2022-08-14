@@ -9,7 +9,7 @@ Most of my visualization work is coded with R, directories will include datasets
 ## Gallery
 
 ### [Westworld Attribute Matrix](https://github.com/tashapiro/tanya-data-viz/blob/main/westworld/code/ww-radar-plot.R)
-Data from the [Open-Source Psychometrics Project](https://openpsychometrics.org/). Plot created using **ggplot**, **ggtext**, and **ggimage**. 
+Inspired by the ["Attribute Matrix"](https://wwrp.fandom.com/wiki/Attribute_Matrix) show on the HBO series, Westworld. Data from the [Open-Source Psychometrics Project](https://openpsychometrics.org/). Plot created using **ggplot**, **ggtext**, and **ggimage**. 
 
 ![plot](./westworld/plots/westworld-radar-plot.png)
 
@@ -18,7 +18,7 @@ Attempt to recreate New York Times' abortion ban choropleth map using R (ggplot 
 ![plot](./nyt-abortion-map/recreated-nyt-map.jpeg)
 
 ### [Selling Sunset](https://github.com/tashapiro/tanya-data-viz/blob/main/selling-sunset/selling-sunset.R)
-Recreated the funny (and totally fictious) plot created by @bananapeele.
+Recreated the funny (and totally fictious) plot created by [@bananapeele](https://twitter.com/bananapeele/status/1517987473837674501?s=20&t=nIAvx3gUHxyEAMogmJUOdg).
 &nbsp;
 
 ![plot](./selling-sunset/selling_sunset.png)
