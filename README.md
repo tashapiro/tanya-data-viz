@@ -8,6 +8,12 @@ Most of my visualization work is coded with R, directories will include datasets
 
 ## Gallery
 
+### [Nintendo Switch: Top Games](https://github.com/tashapiro/tanya-data-viz/blob/main/nintendo-switch/code/nintendo-switch.R)
+
+Top 5 Nintendo Switch Games based on copies sold. Data from [Wikipedia](https://en.wikipedia.org/wiki/List_of_best-selling_Nintendo_Switch_video_games). Graphic rendered in the style of a Nintendo Switch, screen used as plot background for bar chart. Graphic created with **ggplot**, **ggtext**, **ggimage**, and **ggchicklet**.
+
+![plot](./nintendo-switch/plot/switch.png)
+
 ### [The Leo Chart](https://github.com/tashapiro/tanya-data-viz/blob/main/dicaprio-gfs/dicaprio-gfs.R)
 
 Based on a chart found on [Reddit circa 2019](https://www.insider.com/leonardo-dicaprio-girlfriends-reddit-chart-2019-3) by **TrustLittleBrother**. I wanted to recreate the infamous graphic using ggplot and related ggplot libarires in R. Images of Leo and his party of girlfriends taken from the original image. Code uses ggplot, ggtext, and ggimage.
