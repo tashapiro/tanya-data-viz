@@ -52,11 +52,11 @@ table<-reactable(df%>%select(rank, player, region, australian_open, french_open,
                                  align="center",
                                  headerVAlign="center",
                                  style = color_scales(df, span = 4:7, colors=pal_scale),
-                                 headerStyle = list(fontFamily="Roboto"),
+                                 headerStyle = list(fontFamily="Chivo"),
                                  width=90
           ),
           columnGroups = list(
-            colGroup(name="", columns=c("player","region","titles"), headerStyle = list(fontFamily="Roboto"), align="left"),
+            colGroup(name="", columns=c("player","region","titles"), headerStyle = list(fontFamily="Chivo"), align="left"),
             colGroup(name="Event", columns=c("australian_open","us_open","french_open","wimbledon"), headerStyle = list(fontFamily="Roboto"))
           ),
           columns = list(
@@ -117,7 +117,7 @@ table_final<-table%>%
       tags$img(src = "https://pngimg.com/uploads/tennis/tennis_PNG10416.png", style = "width:50px;height:34px;display:inline-block;vertical-align:middle;"),
       #tags$h1("trophy  ",style="font-family:'Font Awesome 6 Free';margin-bottom:0;display:inline-block;vertical-align:middle;padding-right:10px;"),
       tags$div("Grand Slam Legends", style="font-size:32px;font-weight:bold;font-family:Chivo;margin-bottom:0;display:inline-block;vertical-align:middle;"), 
-      tags$h3("Top Women's Tennis Players by Singles Championship Titles", style="font-family:Roboto;margin-bottom:0;margin-top:0;font-weight:400;color:#8C8C8C;padding-left:10px;")
+      tags$h3("Top Women's Tennis Players by Singles Championship Titles", style="font-family:Chivo;margin-bottom:0;margin-top:0;font-weight:400;color:#8C8C8C;padding-left:10px;")
   )
   )%>%
   #footnote and source
