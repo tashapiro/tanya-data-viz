@@ -8,6 +8,10 @@ Most of my visualization work is coded with R, directories will include datasets
 
 ## Gallery
 
+### [Grand Slam Legends](./tennis/womens-tennis.R)
+
+![plot](./tennis/womens-tennis.png)
+
 ### [Nintendo Switch: Top Games](https://github.com/tashapiro/tanya-data-viz/blob/main/nintendo-switch/code/nintendo-switch.R)
 
 Top 5 Nintendo Switch Games based on copies sold. Data from [Wikipedia](https://en.wikipedia.org/wiki/List_of_best-selling_Nintendo_Switch_video_games). Graphic rendered in the style of a Nintendo Switch, screen used as plot background for bar chart. Graphic created with **ggplot**, **ggtext**, **ggimage**, and **ggchicklet**.
