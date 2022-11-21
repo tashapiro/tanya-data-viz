@@ -8,6 +8,10 @@ Most of my visualization work is coded with R, directories will include datasets
 
 ## Gallery
 
+### [FIFA World Cup](./fifa-world-cup/fifa-world-cup.R)
+
+![plot](./fifa-world-cup/fifa.png)
+
 ### [Grand Slam Legends](./tennis/womens-tennis.R)
 
 ![plot](./tennis/womens-tennis.png)
