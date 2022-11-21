@@ -201,7 +201,7 @@ ggplot()+
   #add in tile heatmap
   annotation_custom(ggplotGrob(plot), xmin=3, xmax=8.5, ymin=1.25, ymax=4.75)+
   #add ball image 
-  geom_image(mapping=aes(x=3.3, y=4.5, image="ball.png"), image_fun = transparent, size=.4)+
+  geom_image(mapping=aes(x=3.3, y=4.5, image="https://raw.githubusercontent.com/tashapiro/tanya-data-viz/main/fifa-world-cup/ball.png"), image_fun = transparent, size=.4)+
   #add plot title
   geom_textbox(mapping=aes(x=3.3, y=4.5, label=title), hjust=0, vjust=1, box.size=NA, fill=NA,  width = unit(4, "inch"))+
   #add caption
