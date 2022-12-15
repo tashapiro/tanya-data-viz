@@ -6,6 +6,18 @@ This repo is dedicated to sharing my adventures with miscellaneous data visualiz
 
 Most of my visualization work is coded with R, directories will include datasets and code files. Code files will include comments to walk through different steps of generating the visualiztion.
 
+## Summary
+
+| **Topic**                                  | **Main Packages**                     | **Source**                |
+|:-------------------------------------------|:--------------------------------------|:--------------------------|
+| [FIFA World Cup](./fifa-world-cup)         | ggplot, ggtext, ggimage, geomtextpath | Wikipedia                 |
+| [ChatGPT vs. Lensa](./chat-gpt)            | ggplot, geomtextpath, ggtext          | Google Trends             |
+| [Grand Slam Tennis Legends](./tennis)      | htmltools, htmlwidgets, reactablefmtr | Wikipedia                 |
+| [Selling Sunset Vibes](./selling-sunset)   | ggplot, ggimage                       | A Tweet                   |
+| [The Leo Chart](./dicaprio-gfs)            | ggplot, ggimage                       | Reddit                    |
+| [Nintendo Switch Games](./nintendo-switch) | ggplot, ggimage, ggchicklet           | Wikipedia                 |
+| [WestWorld Attribute Matrix](./westworld)  | ggplot, ggtext, ggimage               | Open-Source Psychometrics |
+
 ## Gallery
 
 ### [FIFA World Cup](./fifa-world-cup/fifa-world-cup.R)
