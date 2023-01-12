@@ -10,6 +10,7 @@ Most of my visualization work is coded with R, directories will include datasets
 
 | **Topic**                                  | **Main Packages**                     | **Source**                |
 |:-------------------------------------------|:--------------------------------------|:--------------------------|
+| [Speaker Election](./soth-election)        | ggplot, ggtext, ggimage, ggsankey     | voteogra.                 |
 | [FIFA World Cup](./fifa-world-cup)         | ggplot, ggtext, ggimage, geomtextpath | Wikipedia                 |
 | [ChatGPT vs. Lensa](./chat-gpt)            | ggplot, geomtextpath, ggtext          | Google Trends             |
 | [Grand Slam Tennis Legends](./tennis)      | htmltools, htmlwidgets, reactablefmtr | Wikipedia                 |
@@ -19,6 +20,10 @@ Most of my visualization work is coded with R, directories will include datasets
 | [WestWorld Attribute Matrix](./westworld)  | ggplot, ggtext, ggimage               | Open-Source Psychometrics |
 
 ## Gallery
+
+### [Speaker of The House Election: GOP Flip-Floppers](./soth-election)
+
+![plot](./soth-election/plot/soth-election.png)
 
 ### [FIFA World Cup](./fifa-world-cup/fifa-world-cup.R)
 
