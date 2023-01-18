@@ -8,18 +8,23 @@ Most of my visualization work is coded with R, directories will include datasets
 
 ## Summary
 
-| **Topic**                                  | **Main Packages**                     | **Source**                |
-|:-------------------------------------------|:--------------------------------------|:--------------------------|
-| [Speaker Election](./soth-election)        | ggplot, ggtext, ggimage, ggsankey     | voteogra.                 |
-| [FIFA World Cup](./fifa-world-cup)         | ggplot, ggtext, ggimage, geomtextpath | Wikipedia                 |
-| [ChatGPT vs. Lensa](./chat-gpt)            | ggplot, geomtextpath, ggtext          | Google Trends             |
-| [Grand Slam Tennis Legends](./tennis)      | htmltools, htmlwidgets, reactablefmtr | Wikipedia                 |
-| [Selling Sunset Vibes](./selling-sunset)   | ggplot, ggimage                       | A Tweet                   |
-| [The Leo Chart](./dicaprio-gfs)            | ggplot, ggimage                       | Reddit                    |
-| [Nintendo Switch Games](./nintendo-switch) | ggplot, ggimage, ggchicklet           | Wikipedia                 |
-| [WestWorld Attribute Matrix](./westworld)  | ggplot, ggtext, ggimage               | Open-Source Psychometrics |
+| **Topic**                                    | **Main Packages**                     | **Source**                |
+|:---------------------------------------------|:--------------------------------------|:--------------------------|
+| [Popular Spotify Artists](./spotify-artists) | ggplot, ggtext, ggimage.              | spotifyr                  |
+| [Speaker Election](./soth-election)          | ggplot, ggtext, ggimage, ggsankey     | voteogram                 |
+| [FIFA World Cup](./fifa-world-cup)           | ggplot, ggtext, ggimage, geomtextpath | Wikipedia                 |
+| [ChatGPT vs. Lensa](./chat-gpt)              | ggplot, geomtextpath, ggtext          | Google Trends             |
+| [Grand Slam Tennis Legends](./tennis)        | htmltools, htmlwidgets, reactablefmtr | Wikipedia                 |
+| [Selling Sunset Vibes](./selling-sunset)     | ggplot, ggimage                       | A Tweet                   |
+| [The Leo Chart](./dicaprio-gfs)              | ggplot, ggimage                       | Reddit                    |
+| [Nintendo Switch Games](./nintendo-switch)   | ggplot, ggimage, ggchicklet           | Wikipedia                 |
+| [WestWorld Attribute Matrix](./westworld)    | ggplot, ggtext, ggimage               | Open-Source Psychometrics |
 
 ## Gallery
+
+### [Most Popular Artists on Spotify](./spotify-artists)
+
+![plot](./spotify-artists/plots/popular-artists.png)
 
 ### [Speaker of The House Election: GOP Flip-Floppers](./soth-election)
 
