@@ -144,5 +144,5 @@ ggplot()+
         panel.grid.major.y = element_line(linewidth=.4))
 
 
-ggsave("nfl_passing_yds.png", height=9, width=9, bg="white")
+ggsave("nfl_passing_yds.png", height=9.5, width=9.5, bg="white")
         axis.title.y=element_blank())
