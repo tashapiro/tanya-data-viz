@@ -114,7 +114,7 @@ plot_legend<-ggplot(df_legend)+
   )+
   geom_text(
     mapping=aes(x = x_pos, y= y_pos - 0.45, label=text),
-    family = main_font, size = 3
+    family = main_font, size = 2.5
   )+
   scale_y_continuous(limits=c(0.5,3))+
   scale_x_continuous(limits = c(0.7, 1.2))+
@@ -129,15 +129,15 @@ plot_final<-plot_map +
     #add hawaii
     inset_element(plot_hawaii, left=0.2, right = 0.4, bottom = 0.07, top=0.2)+
     #add legend
-    inset_element(plot_legend2, left = 0.77, bottom= 0.15, top= 0.85,  right= 0.97, align_to = 'full')+
+    inset_element(plot_legend, left = 0.77, bottom= 0.15, top= 0.85,  right= 0.97, align_to = 'full')+
     plot_annotation(title = 'Popularity Contest: Trump vs. Swift',
-                    subtitle = "Is Trump really more popular than Taylor Swift? Map shows the more popular Google search by state. Data from Google Trends over the last 12 months.",
-                    caption = "Source: Google Trends",
+                    subtitle = glue("<span>Is <b style='color:{pal[2]}'>Trump</b> really more popular than <b style='color:{pal[1]}'>Taylor Swift</b>? Map shows the more popular Google search by state over the last 12 months. Data from Google Trends as of Feb 3rd, 2024.</span>"),
+                    caption = "Source: Google Trends • Graphic: Tanya Shapiro",
                     theme = theme(
                     plot.margin = margin(t=10, r=10, l=10, b=5),
-                    plot.title = ggtext::element_textbox_simple(size = 16, family=main_font, face='bold', margin=margin(b=5)),
-                    plot.subtitle = ggtext::element_textbox_simple(size=10, family='roboto', color='#6F6F6F'),
-                    plot.caption = ggtext::element_textbox_simple(size=8, family='roboto slab', color="#6F6F6F", hjust=0)))
+                    plot.title = ggtext::element_textbox_simple(size = 15, family=main_font, face='bold', margin=margin(b=5)),
+                    plot.subtitle = ggtext::element_textbox_simple(size=8, family='roboto', color='#6F6F6F'),
+                    plot.caption = ggtext::element_textbox_simple(size=6, family='roboto slab', color="#6F6F6F", hjust=0)))
 
 
-ggsave("trump_swift.png", plot_final)
+ggsave("trump_swift.png", plot_final, width=5.5, height=5)
